@@ -1,0 +1,181 @@
+/* UNIVERSAL SELECTOR * 
+* {
+    color: black;
+}
+/* ELEMENT SELECTOR */
+
+/*h2 {
+    color: white;
+}*/
+
+/* CLASS SELECTOR *
+.container-one {
+    background-color: coral;
+}
+
+.container-two {
+    background-color: chocolate;
+}
+
+.container-three {
+    background-color: darkorange;
+}
+/*.contain {
+    width: 350px;
+    height: 200px;
+}*/
+
+/* ID SELECTOR *
+#btn1 {
+    background-color: brown;
+    color: white;
+}
+#btn2 {
+    background-color: darkblue;
+    color: white;
+}
+#btn3 {
+    background-color: darkred;
+    color: white;
+}
+
+/* GROUP SELECTOR 
+.container-one, .container-two, .container-three {
+    width: 350px;
+    height: 200px;
+}
+
+#btn1, #btn2, #btn3 {
+    color: black;
+}
+
+/* NESTED SELECTOR *
+.container .text-container .para {
+    color: blue;
+}
+
+.container div p {
+    letter-spacing: 30px;
+}
+
+
+
+/* NESTED SELECTOR */
+.container1 .container-one {
+    background-color: red;
+}
+
+.container1 .container-two {
+    background-color: brown;
+}
+
+.container1 .container-three {
+    background-color: orangered;
+}
+
+.container2 .container-one {
+    background-color: green;
+}
+
+.container2 .container-two {
+    background-color: chartreuse;
+}
+.container2 .container-three {
+    background-color: greenyellow;
+}
+
+/*.container1 .container-one, .container1 .container-two, .container1 .container-three {
+    width: 300px;
+    height: 250px;
+}*/
+
+/*.contain {
+    width: 300px;
+    height: 300px;
+}*/
+
+/*.box .contain {
+    width: 300px;
+    height: 300px;
+}*/
+
+.container-one, .container-two, .container-three {
+    width: 300px;
+    height: 300px;
+}
+
+/*
+    CSS INTRODUCTION: 
+    1.CSS is used for basically styling the web document, i.e it is used to style the font, color, background of the web content       
+    2. CSS can also be used to make a web page responsive i.e it make the web page viewable on any device
+    3. CSS can be used to add animation and transition to the content of the web page.
+    4. CSS can be used to with both html and javascript on the webpage.
+    5. CSS  can be used to align and position our web content on the web page.
+
+    CSS SYNTAX => These are the set of rules and keywords used to write our css codes and also style the web page
+    elementname {
+        //css codes
+    }
+
+    CSS SELECTORS: There are different css selectors which include:
+    1. Element Selector: This uses the html element name to style the web content e.g div, h2 , p, ul, li, img etc
+    2. Class Selector => (.)
+    3. ID Selector => (#)
+    4. Universal Selector => (*)
+    5. Group Selector => For group styling of more than one clsss name, id name or element name you use (,).
+    6. Nested Selector
+*/
+/*
+ELEMENT SELECTOR
+div {
+    background-color: coral;
+}*/
+
+
+
+/* CSS COLORS can be used on text to change the text color from the default color to the preferred color. */
+/*
+    1. Color name
+    2. hsl => hue saturation lightness
+    3. rgb => red green blue 0 - 255 => recommended
+    4. hex codes => #f4f4f4
+    5. hsla => hue saturation lightness alpha
+    6. rgba => red green blue alpha
+    7. opacity => it has to do with transparency or thickness of a color.
+*/
+.about_container h2{
+    color: hsl(0, 100%, 100%);
+}
+.about_container p {
+    color: rgb(255, 255, 255);
+}
+.about_container a {
+    color: white;
+}
+
+/* CSS BACKGROUNDS can be used on a web page to add a backgound to your web contents. */
+/* 
+    background color
+    background image
+    background size
+    background position
+    backgroud repeat
+    background attachment
+
+    gradient - linear gradient
+*/
+/* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+
+.about_container {
+    background-image: linear-gradient(rgba(211, 45, 45, 0.5), rgba(0, 0, 0, 1)), url(/media/bg-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
