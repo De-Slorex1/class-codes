@@ -56,6 +56,7 @@ body {
     border-radius: 10px;
     background-color: white;
     padding: 10px 15px;
+    position: relative;
 }
 .card-1 img {
     width: 100%;
@@ -130,4 +131,42 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.active-state {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 70px;
+    background-color: white;
+    color: black;
+    padding: 5px 8px;
+    align-items: center;
+    border-radius: 30px;
+    position: absolute;
+    top: 4%;
+    left: 7%;
+}
+.active-state p {
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    right: 10%;
+    top: 30%;
+}
+.icon-container .link {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
